@@ -1,0 +1,79 @@
+html, body, h1{
+	margin: 0px;
+	padding: 0px;
+}
+
+*{
+	box-sizing: border-box;
+	font-family: 'Dosis', sans-serif;
+}
+
+.backgroundvideo {
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	z-index: -1;
+}
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: inherit;
+  }
+
+  .no-video .video-container video,
+  .touch .video-container video {
+    display: none;
+  }
+
+  .no-video .video-container .poster,
+  .touch .video-container .poster {
+    display: block !important;
+  }
+
+  .video-container {
+    position: inherit;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+  }
+
+  .video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: inherit;
+  }
+
+  .video-container .filter {
+    z-index: -1;
+    position: inherit;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+  }
+
+  .video-container video {
+    position: inherit;
+    z-index: -1;
+    bottom: 0;
+  }
+
+  .video-container video.fillWidth {
+    width: 100%;
+  }
+
+  .barra .container-fluid {
+  	background-color: #737272;
+  	height: 150px;
+  }
+
+  .barra img{
+  	width: 75px;
+  	height: 75px;
+  	border-radius: 50%;
+  	margin: 20px;
+
+  }
+
