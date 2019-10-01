@@ -1,2 +1,2 @@
 # inspiration
-juvellardi.github.com/inspiration
+https://juvellardi.github.io/inspiration/
