@@ -73,6 +73,7 @@ html, body, h1, ul, a{
     display: grid;
   }
   
+
   .barra .container {
     max-width: 980px;
     max-height: 108px;
@@ -99,11 +100,12 @@ html, body, h1, ul, a{
  
   .menu li{
     list-style: none;
-    margin: 20px; 
+    padding: 1rem;
   }
 
-  .menu.d-flex a{
+  .menu.d-flex {
     text-decoration: none;
+    flex-wrap: wrap;
 
   }
 
