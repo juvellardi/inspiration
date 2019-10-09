@@ -231,3 +231,13 @@ section {
   color: #3C3C4E;
   text-decoration: none;
 }
+
+.galeria{
+  max-width: 100%;
+
+}
+
+.galeria img{
+  max-width: 30%;
+  max-height: 30%;
+}
